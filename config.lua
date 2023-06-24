@@ -16,12 +16,12 @@ Config = {
     -- Set this to true if you want to disarm the player when they play an emote.
     DisarmPlayer = false,
     -- Set this to false if you want to disallow people punching while emotes are playing 
-    AllowPunching = true,
+    AllowPunching = false,
     -- Set this if you really wanna disable emotes in cars, as of 1.7.2 they only play the upper body part if in vehicle
     AllowedInCars = true,
     -- You can disable the menu here / change the keybind. It is currently set to F5
     MenuKeybindEnabled = true,
-    MenuKeybind = 'f4', -- Get the button string here https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
+    MenuKeybind = 'f5', -- Get the button string here https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
     -- You can disable the Favorite emote keybinding here.
     FavKeybindEnabled = true,
     FavKeybind = 'capital', -- Get the button string here https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
@@ -53,7 +53,7 @@ Config = {
     -- You can disable the Shared Emotes here.
     SharedEmotesEnabled = true,
     -- If you have the SQL imported enable this to turn on keybinding.
-    SqlKeybinding = false,
+    SqlKeybinding = true,
     -- If you don't like gta notifications, you can disable them here to have messages in the chat.
     NotificationsAsChatMessage = false,
     -- Used for few framework dependent things. Accepted values: "qb-core", false
@@ -72,17 +72,17 @@ Config = {
     PersistentEmoteAfterHandsup = true, -- If true, you will play the emote you were playing previously after you stop handsup.
     -- You can disable the fingrer pointing here / change the keybind. It is currently set to B
     PointingEnabled = false,
-    PointingKeybindEnabled = true,
+    PointingKeybindEnabled = false,
     PointingKeybind = 'B', -- Get the button string here https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
     PersistentEmoteAfterPointing = true, -- If true, you will play the emote you were playing previously after you stop pointing.
     -- If crouching should be enabled.
-    CrouchEnabled = true,
-    CrouchKeybindEnabled = true, -- If true, crouching will use keybinds.
+    CrouchEnabled = false,
+    CrouchKeybindEnabled = false, -- If true, crouching will use keybinds.
     CrouchKeybind = 'lcontrol', -- The default crouch keybind, get the button string here: https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
     CrouchOverride = false, -- If true, you won't enter stealth mode even if the crouch key and the "duck" key are the same.
     -- If crawling should be enabled.
-    CrawlEnabled = true,
-    CrawlKeybindEnabled = true, -- If true, crawling will use keybinds.
+    CrawlEnabled = false,
+    CrawlKeybindEnabled = false, -- If true, crawling will use keybinds.
     CrawlKeybind = 'rcontrol', -- The default crawl keybind, get the button string here: https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
     -- If turned on, playing an emote will cancel the previous one.
     CancelPreviousEmote = false,
