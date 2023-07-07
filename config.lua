@@ -1,6 +1,7 @@
 --- Maintained by TayMcKenzieNZ for the community ---
 --- Leakers and resellers are the absolute scum of the earth ---
 --- RPEMOTES IS AND ALWAYS WILL BE FREE. STOP PAYING FOR LEAKS!!! ---
+--- Edited for PoSARP
 
 Config = {
     -- Change the language of the menu here!.
