@@ -1,3 +1,9 @@
+--- RPEmotes by TayMcKenzieNZ, Mathu_lmn and MadsL, maintained by TayMcKenzieNZ ---
+--- Download OFFICIAL version and updates ONLY at https://github.com/TayMcKenzieNZ/rpemotes ---
+--- RPEmotes is FREE and ALWAYS will be. STOP PAYING SCAMMY FUCKERS FOR SOMEONE ELSE'S WORK!!! ---
+
+
+
 -- You probably shouldnt touch these.
 local AnimationDuration = -1
 local ChosenAnimation = ""
@@ -608,7 +614,7 @@ function OnEmotePlay(EmoteName, name, textureVariation)
         DestroyAllProps()
     end
 
-    if ChosenDict == "MaleScenario" or "Scenario" then
+    if ChosenDict == "MaleScenario" or ChosenDict == "Scenario" or ChosenDict == "ScenarioObject" then
         CheckGender()
         if ChosenDict == "MaleScenario" then if InVehicle then return end
             if PlayerGender == "male" then
